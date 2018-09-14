@@ -1,0 +1,122 @@
+   /*
+        * Background: #F5F5F5 (GREY 100)
+        * Primary Text: black
+        * Primary color: #3F51B5 (INDIGO)
+        * Primary color_text : white
+        * Accent color: #CDDC39 (LIME)
+        * Accent color_text: black
+        */
+
+/* Global */
+
+* {
+               
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#F5F5F5;
+}
+strong{
+    text-transform: uppercase;
+}
+/* App bar */
+
+h1 {
+    background-color:#3F51B5;
+    color: white;
+}
+
+/* Channels list */
+
+ul {
+    background-color: white;
+    list-style-type: none ;
+   
+}
+ul img{
+    vertical-align: middle;
+}
+ul li{
+    padding: 16px;
+    height: 16px;
+    font-size: 16px;
+    border-bottom-style: inset;
+    border-bottom-color:#F5F5F5;
+    
+ }
+.selected2{
+    color:#3F51B5;
+    border-left: 4px;
+    border-left-style: solid;
+    border-left-color: #3F51B5;
+
+}
+
+/* Tab bar */
+#tab-bar {
+ background-color: white;
+
+}
+
+
+#tab-bar button{
+   
+    background-color: white;
+    text-transform: uppercase;
+   border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;  
+    padding: 16px;
+  
+}
+
+#tab-bar img{
+    display: block;
+    margin: auto;
+    padding:4px;
+ 
+}
+.selected {
+   
+    color:#3F51B5;
+    border-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #3F51B5;
+   
+}
+
+/* Messages */
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+   }
+.own{
+    margin-left: 17.5%;
+}
+.message h3{
+    font-size: medium;
+}
+.message p{
+    background-color:white;
+    padding: 16px;
+    
+}
+.message button {
+    background-color: #CDDC39;
+     color:black;
+     text-transform: uppercase;
+}
+.message i {
+    font-size: larger;
+    /* non-italic */
+    font-style:normal;
+}
+a {
+    text-transform: uppercase;
+    color: black;
+}
