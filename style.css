@@ -57,7 +57,7 @@ ul li{
 /* Tab bar */
 #tab-bar {
  background-color: white;
-
+width: 100%;
 }
 
 
@@ -65,7 +65,7 @@ ul li{
    
     background-color: white;
     text-transform: uppercase;
-   border: none;
+    border: none; 
     font-size: 13px;
     width: 33%;
     height: 72px;  
@@ -79,7 +79,7 @@ ul li{
     padding:4px;
  
 }
-.selected {
+#tab-bar button.selected {
    
     color:#3F51B5;
     border-bottom: 4px;
